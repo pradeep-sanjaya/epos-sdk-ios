@@ -1,0 +1,28 @@
+{
+    "credit" = "Credit";
+    "debit" = "Debit";
+    "unionpay" = "UnionPay";
+    "edy" = "Edy";
+    "id" = "iD";
+    "nanaco" = "nanaco";
+    "quicpay" = "QUICPay";
+    "suica" = "Suica";
+    "waon" = "WAON";
+    "point" = "POINT";
+    "nfcpayment" = "NFCPayment";
+    "pitapa" = "PiTaPa";
+    "fisc" = "FISC";
+    "qr" = "QR";
+    "credit_debit" = "CreditDebit";
+    "multi" = "Multi";
+    "common" = "COMMON";
+    "authorize_sales" = "AuthorizeSales";
+    "authorize_void" = "AuthorizeVoid";
+    "authorize_refund" = "AuthorizeRefund";
+    "authorize_completion" = "AuthorizeCompletion";
+    "clear_output" = "ClearOutput";
+	"methoderr_errcode" = "Error Code";
+    "methoderr_method" = "Method";
+    "statusmsg_result" = "Result";
+    "opos_code" = "OposCode";
+}

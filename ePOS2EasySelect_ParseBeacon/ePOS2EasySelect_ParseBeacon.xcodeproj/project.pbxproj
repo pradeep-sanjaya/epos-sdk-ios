@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F59D2911F6A59CC009B17C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59D2901F6A59CC009B17C5 /* main.m */; };
+		9F59D2941F6A59CC009B17C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59D2931F6A59CC009B17C5 /* AppDelegate.m */; };
+		9F59D29C1F6A59CC009B17C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F59D29B1F6A59CC009B17C5 /* Images.xcassets */; };
+		9F59D2B51F6A5A36009B17C5 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F59D2B41F6A5A36009B17C5 /* ExternalAccessory.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9F59D2B71F6A5A3F009B17C5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F59D2B61F6A5A3F009B17C5 /* CoreLocation.framework */; };
+		9F59D2C51F6A5AE0009B17C5 /* BeaconCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59D2C21F6A5AE0009B17C5 /* BeaconCustomCell.m */; };
+		9F59D2C61F6A5AE0009B17C5 /* BeaconPrinterInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59D2C41F6A5AE0009B17C5 /* BeaconPrinterInfo.m */; };
+		9F59D2C91F6A5AED009B17C5 /* IndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59D2C81F6A5AED009B17C5 /* IndicatorView.m */; };
+		9F59D2CC1F6A5AFB009B17C5 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59D2CB1F6A5AFB009B17C5 /* MainTableViewController.m */; };
+		9F59D2D61F6A5B5D009B17C5 /* RSSIBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59D2D11F6A5B5D009B17C5 /* RSSIBarView.m */; };
+		9F59D2D71F6A5B5D009B17C5 /* ShowMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59D2D31F6A5B5D009B17C5 /* ShowMsg.m */; };
+		9F59D2D81F6A5B5D009B17C5 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59D2D51F6A5B5D009B17C5 /* Utility.m */; };
+		9F59D2DB1F6A5B6D009B17C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F59D2D91F6A5B6D009B17C5 /* InfoPlist.strings */; };
+		9F59D2DF1F6A5B8F009B17C5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F59D2DE1F6A5B8F009B17C5 /* Localizable.strings */; };
+		9F59D2E01F6A5C30009B17C5 /* ParseBeacon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F59D2CD1F6A5B0D009B17C5 /* ParseBeacon.storyboard */; };
+		9FF1FCD01F74B01F00CD7E3D /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF1FCCF1F74B01F00CD7E3D /* libxml2.2.tbd */; };
+		D7CC5D6F27ED4C180073F043 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CC5D6E27ED4C180073F043 /* CoreBluetooth.framework */; };
+		E805BB6B27F15AFC00AC965A /* libeposeasyselect.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E805BB6927F15AFB00AC965A /* libeposeasyselect.xcframework */; };
+		E805BB6D27F15AFC00AC965A /* libepos2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E805BB6A27F15AFB00AC965A /* libepos2.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F59D28B1F6A59CC009B17C5 /* ePOS2EasySelect_ParseBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePOS2EasySelect_ParseBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F59D2901F6A59CC009B17C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F59D2921F6A59CC009B17C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F59D2931F6A59CC009B17C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F59D29B1F6A59CC009B17C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F59D2B41F6A5A36009B17C5 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		9F59D2B61F6A5A3F009B17C5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9F59D2BA1F6A5A5D009B17C5 /* libepos2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libepos2.a; path = ../libs/libepos2.a; sourceTree = "<group>"; };
+		9F59D2BB1F6A5A5D009B17C5 /* libeposeasyselect.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libeposeasyselect.a; path = ../libs/libeposeasyselect.a; sourceTree = "<group>"; };
+		9F59D2C11F6A5AE0009B17C5 /* BeaconCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconCustomCell.h; sourceTree = "<group>"; };
+		9F59D2C21F6A5AE0009B17C5 /* BeaconCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconCustomCell.m; sourceTree = "<group>"; };
+		9F59D2C31F6A5AE0009B17C5 /* BeaconPrinterInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconPrinterInfo.h; sourceTree = "<group>"; };
+		9F59D2C41F6A5AE0009B17C5 /* BeaconPrinterInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconPrinterInfo.m; sourceTree = "<group>"; };
+		9F59D2C71F6A5AED009B17C5 /* IndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorView.h; sourceTree = "<group>"; };
+		9F59D2C81F6A5AED009B17C5 /* IndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorView.m; sourceTree = "<group>"; };
+		9F59D2CA1F6A5AFB009B17C5 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		9F59D2CB1F6A5AFB009B17C5 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		9F59D2CE1F6A5B0D009B17C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ParseBeacon.storyboard; sourceTree = "<group>"; };
+		9F59D2D01F6A5B5D009B17C5 /* RSSIBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSIBarView.h; sourceTree = "<group>"; };
+		9F59D2D11F6A5B5D009B17C5 /* RSSIBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSIBarView.m; sourceTree = "<group>"; };
+		9F59D2D21F6A5B5D009B17C5 /* ShowMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMsg.h; sourceTree = "<group>"; };
+		9F59D2D31F6A5B5D009B17C5 /* ShowMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMsg.m; sourceTree = "<group>"; };
+		9F59D2D41F6A5B5D009B17C5 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		9F59D2D51F6A5B5D009B17C5 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		9F59D2DA1F6A5B6D009B17C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F59D2DC1F6A5B76009B17C5 /* ePOS2EasySelect_ParseBeacon-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ePOS2EasySelect_ParseBeacon-Info.plist"; sourceTree = "<group>"; };
+		9F59D2DE1F6A5B8F009B17C5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		9FF1FCCF1F74B01F00CD7E3D /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		D7CC5D6E27ED4C180073F043 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E805BB6927F15AFB00AC965A /* libeposeasyselect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libeposeasyselect.xcframework; path = ../libs/libeposeasyselect.xcframework; sourceTree = "<group>"; };
+		E805BB6A27F15AFB00AC965A /* libepos2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libepos2.xcframework; path = ../libs/libepos2.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F59D2881F6A59CC009B17C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7CC5D6F27ED4C180073F043 /* CoreBluetooth.framework in Frameworks */,
+				E805BB6D27F15AFC00AC965A /* libepos2.xcframework in Frameworks */,
+				9FF1FCD01F74B01F00CD7E3D /* libxml2.2.tbd in Frameworks */,
+				9F59D2B51F6A5A36009B17C5 /* ExternalAccessory.framework in Frameworks */,
+				9F59D2B71F6A5A3F009B17C5 /* CoreLocation.framework in Frameworks */,
+				E805BB6B27F15AFC00AC965A /* libeposeasyselect.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F59D2821F6A59CC009B17C5 = {
+			isa = PBXGroup;
+			children = (
+				9F59D28D1F6A59CC009B17C5 /* ePOS2EasySelect_ParseBeacon */,
+				9F59D2BE1F6A5A7B009B17C5 /* Frameworks */,
+				9F59D28C1F6A59CC009B17C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F59D28C1F6A59CC009B17C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F59D28B1F6A59CC009B17C5 /* ePOS2EasySelect_ParseBeacon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F59D28D1F6A59CC009B17C5 /* ePOS2EasySelect_ParseBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				9F59D2921F6A59CC009B17C5 /* AppDelegate.h */,
+				9F59D2931F6A59CC009B17C5 /* AppDelegate.m */,
+				9F59D2C11F6A5AE0009B17C5 /* BeaconCustomCell.h */,
+				9F59D2C21F6A5AE0009B17C5 /* BeaconCustomCell.m */,
+				9F59D2C31F6A5AE0009B17C5 /* BeaconPrinterInfo.h */,
+				9F59D2C41F6A5AE0009B17C5 /* BeaconPrinterInfo.m */,
+				9F59D2C71F6A5AED009B17C5 /* IndicatorView.h */,
+				9F59D2C81F6A5AED009B17C5 /* IndicatorView.m */,
+				9F59D2CA1F6A5AFB009B17C5 /* MainTableViewController.h */,
+				9F59D2CB1F6A5AFB009B17C5 /* MainTableViewController.m */,
+				9F59D2CD1F6A5B0D009B17C5 /* ParseBeacon.storyboard */,
+				9F59D2D01F6A5B5D009B17C5 /* RSSIBarView.h */,
+				9F59D2D11F6A5B5D009B17C5 /* RSSIBarView.m */,
+				9F59D2D21F6A5B5D009B17C5 /* ShowMsg.h */,
+				9F59D2D31F6A5B5D009B17C5 /* ShowMsg.m */,
+				9F59D2D41F6A5B5D009B17C5 /* Utility.h */,
+				9F59D2D51F6A5B5D009B17C5 /* Utility.m */,
+				9F59D29B1F6A59CC009B17C5 /* Images.xcassets */,
+				9F59D28E1F6A59CC009B17C5 /* Supporting Files */,
+			);
+			path = ePOS2EasySelect_ParseBeacon;
+			sourceTree = "<group>";
+		};
+		9F59D28E1F6A59CC009B17C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F59D2DE1F6A5B8F009B17C5 /* Localizable.strings */,
+				9F59D2DC1F6A5B76009B17C5 /* ePOS2EasySelect_ParseBeacon-Info.plist */,
+				9F59D2D91F6A5B6D009B17C5 /* InfoPlist.strings */,
+				9F59D2901F6A59CC009B17C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F59D2BE1F6A5A7B009B17C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E805BB6A27F15AFB00AC965A /* libepos2.xcframework */,
+				E805BB6927F15AFB00AC965A /* libeposeasyselect.xcframework */,
+				D7CC5D6E27ED4C180073F043 /* CoreBluetooth.framework */,
+				9F59D2BA1F6A5A5D009B17C5 /* libepos2.a */,
+				9F59D2BB1F6A5A5D009B17C5 /* libeposeasyselect.a */,
+				9FF1FCCF1F74B01F00CD7E3D /* libxml2.2.tbd */,
+				9F59D2B61F6A5A3F009B17C5 /* CoreLocation.framework */,
+				9F59D2B41F6A5A36009B17C5 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F59D28A1F6A59CC009B17C5 /* ePOS2EasySelect_ParseBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F59D2AE1F6A59CD009B17C5 /* Build configuration list for PBXNativeTarget "ePOS2EasySelect_ParseBeacon" */;
+			buildPhases = (
+				9F59D2871F6A59CC009B17C5 /* Sources */,
+				9F59D2881F6A59CC009B17C5 /* Frameworks */,
+				9F59D2891F6A59CC009B17C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ePOS2EasySelect_ParseBeacon;
+			productName = ePOS2EasySelect_ParseBeacon;
+			productReference = 9F59D28B1F6A59CC009B17C5 /* ePOS2EasySelect_ParseBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F59D2831F6A59CC009B17C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = 9F59D2861F6A59CC009B17C5 /* Build configuration list for PBXProject "ePOS2EasySelect_ParseBeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 9F59D2821F6A59CC009B17C5;
+			productRefGroup = 9F59D28C1F6A59CC009B17C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F59D28A1F6A59CC009B17C5 /* ePOS2EasySelect_ParseBeacon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F59D2891F6A59CC009B17C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F59D2E01F6A5C30009B17C5 /* ParseBeacon.storyboard in Resources */,
+				9F59D2DF1F6A5B8F009B17C5 /* Localizable.strings in Resources */,
+				9F59D2DB1F6A5B6D009B17C5 /* InfoPlist.strings in Resources */,
+				9F59D29C1F6A59CC009B17C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F59D2871F6A59CC009B17C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F59D2C91F6A5AED009B17C5 /* IndicatorView.m in Sources */,
+				9F59D2D61F6A5B5D009B17C5 /* RSSIBarView.m in Sources */,
+				9F59D2C51F6A5AE0009B17C5 /* BeaconCustomCell.m in Sources */,
+				9F59D2CC1F6A5AFB009B17C5 /* MainTableViewController.m in Sources */,
+				9F59D2D81F6A5B5D009B17C5 /* Utility.m in Sources */,
+				9F59D2D71F6A5B5D009B17C5 /* ShowMsg.m in Sources */,
+				9F59D2941F6A59CC009B17C5 /* AppDelegate.m in Sources */,
+				9F59D2C61F6A5AE0009B17C5 /* BeaconPrinterInfo.m in Sources */,
+				9F59D2911F6A59CC009B17C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F59D2CD1F6A5B0D009B17C5 /* ParseBeacon.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F59D2CE1F6A5B0D009B17C5 /* Base */,
+			);
+			name = ParseBeacon.storyboard;
+			sourceTree = "<group>";
+		};
+		9F59D2D91F6A5B6D009B17C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F59D2DA1F6A5B6D009B17C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F59D2AC1F6A59CD009B17C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F59D2AD1F6A59CD009B17C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F59D2AF1F6A59CD009B17C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/ePOS2EasySelect_ParseBeacon/ePOS2EasySelect_ParseBeacon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libs,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epson.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F59D2B01F6A59CD009B17C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/ePOS2EasySelect_ParseBeacon/ePOS2EasySelect_ParseBeacon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libs,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epson.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F59D2861F6A59CC009B17C5 /* Build configuration list for PBXProject "ePOS2EasySelect_ParseBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F59D2AC1F6A59CD009B17C5 /* Debug */,
+				9F59D2AD1F6A59CD009B17C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F59D2AE1F6A59CD009B17C5 /* Build configuration list for PBXNativeTarget "ePOS2EasySelect_ParseBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F59D2AF1F6A59CD009B17C5 /* Debug */,
+				9F59D2B01F6A59CD009B17C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F59D2831F6A59CC009B17C5 /* Project object */;
+}

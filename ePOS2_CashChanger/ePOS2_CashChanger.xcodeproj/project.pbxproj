@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843AD49A1B56856B00E5F2EB /* CashChanger.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843AD4981B56856B00E5F2EB /* CashChanger.storyboard */; };
+		8476482C1B6F94AF0056A02B /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8476482B1B6F94AF0056A02B /* libxml2.2.dylib */; };
+		84BA02561B54AA8C00A16C4F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84BA02551B54AA8C00A16C4F /* Localizable.strings */; };
+		84D5BDF31B538DEE00ACF1A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5BDF21B538DEE00ACF1A8 /* Foundation.framework */; };
+		84D5BDF51B538DEE00ACF1A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5BDF41B538DEE00ACF1A8 /* CoreGraphics.framework */; };
+		84D5BDF71B538DEE00ACF1A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D5BDF61B538DEE00ACF1A8 /* UIKit.framework */; };
+		84D5BDFD1B538DEE00ACF1A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D5BDFB1B538DEE00ACF1A8 /* InfoPlist.strings */; };
+		84D5BDFF1B538DEE00ACF1A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5BDFE1B538DEE00ACF1A8 /* main.m */; };
+		84D5BE031B538DEE00ACF1A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5BE021B538DEE00ACF1A8 /* AppDelegate.m */; };
+		84D5BE0E1B538DEE00ACF1A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D5BE0D1B538DEE00ACF1A8 /* Images.xcassets */; };
+		84D5BE2B1B538E9E00ACF1A8 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D5BE2A1B538E9E00ACF1A8 /* button.png */; };
+		84D5BE311B538EB100ACF1A8 /* ShowMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D5BE301B538EB100ACF1A8 /* ShowMsg.m */; };
+		84DA8B6E1B6F949E002E3DBB /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DA8B6D1B6F949E002E3DBB /* ExternalAccessory.framework */; };
+		D78BE13927EC0EA5000B396E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78BE13827EC0EA5000B396E /* CoreBluetooth.framework */; };
+		E8C9CCFD27F59F9D0026AA96 /* libepos2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C9CCFC27F59F9D0026AA96 /* libepos2.xcframework */; };
+		EB011F1B1F540F8900094E20 /* CashChangerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB011F1A1F540F8900094E20 /* CashChangerViewController.m */; };
+		EB08080A1F551F0A00743273 /* SetConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0808091F551F0A00743273 /* SetConfigViewController.m */; };
+		EB5D3E191F56207900AFA70C /* CashCountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5D3E181F56207900AFA70C /* CashCountViewController.m */; };
+		EB5D3E1C1F5623D400AFA70C /* CollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5D3E1B1F5623D400AFA70C /* CollectViewController.m */; };
+		EB5D3E1F1F5627E500AFA70C /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5D3E1E1F5627E500AFA70C /* DrawerViewController.m */; };
+		EB5D3E221F56336700AFA70C /* CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5D3E211F56336700AFA70C /* CommandViewController.m */; };
+		EBB352C11F540863002B342C /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB352C01F540863002B342C /* ConnectViewController.m */; };
+		EBC955CD1F553443000B452D /* PickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC955CC1F553443000B452D /* PickerTableView.m */; };
+		EBC955D01F5547E2000B452D /* DepositViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC955CF1F5547E2000B452D /* DepositViewController.m */; };
+		EBC955D31F555268000B452D /* DispenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC955D21F555268000B452D /* DispenseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		843AD4991B56856B00E5F2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CashChanger.storyboard; sourceTree = "<group>"; };
+		8476482B1B6F94AF0056A02B /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		84BA02551B54AA8C00A16C4F /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		84D11D4A1B85EEDC00BAADF8 /* libepos2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libepos2.a; path = ../libs/libepos2.a; sourceTree = "<group>"; };
+		84D5BDEF1B538DEE00ACF1A8 /* ePOS2_CashChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePOS2_CashChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D5BDF21B538DEE00ACF1A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84D5BDF41B538DEE00ACF1A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84D5BDF61B538DEE00ACF1A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84D5BDFA1B538DEE00ACF1A8 /* ePOS2_CashChanger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ePOS2_CashChanger-Info.plist"; sourceTree = "<group>"; };
+		84D5BDFC1B538DEE00ACF1A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84D5BDFE1B538DEE00ACF1A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D5BE001B538DEE00ACF1A8 /* ePOS2_CashChanger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ePOS2_CashChanger-Prefix.pch"; sourceTree = "<group>"; };
+		84D5BE011B538DEE00ACF1A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D5BE021B538DEE00ACF1A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D5BE0D1B538DEE00ACF1A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84D5BE2A1B538E9E00ACF1A8 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		84D5BE2F1B538EB100ACF1A8 /* ShowMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMsg.h; sourceTree = "<group>"; };
+		84D5BE301B538EB100ACF1A8 /* ShowMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMsg.m; sourceTree = "<group>"; };
+		84DA8B6D1B6F949E002E3DBB /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		D78BE13827EC0EA5000B396E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E8C9CCFC27F59F9D0026AA96 /* libepos2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libepos2.xcframework; path = ../libs/libepos2.xcframework; sourceTree = "<group>"; };
+		EB011F191F540F8900094E20 /* CashChangerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashChangerViewController.h; sourceTree = "<group>"; };
+		EB011F1A1F540F8900094E20 /* CashChangerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashChangerViewController.m; sourceTree = "<group>"; };
+		EB0808081F551F0A00743273 /* SetConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetConfigViewController.h; sourceTree = "<group>"; };
+		EB0808091F551F0A00743273 /* SetConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetConfigViewController.m; sourceTree = "<group>"; };
+		EB5D3E171F56207900AFA70C /* CashCountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashCountViewController.h; sourceTree = "<group>"; };
+		EB5D3E181F56207900AFA70C /* CashCountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CashCountViewController.m; sourceTree = "<group>"; };
+		EB5D3E1A1F5623D400AFA70C /* CollectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectViewController.h; sourceTree = "<group>"; };
+		EB5D3E1B1F5623D400AFA70C /* CollectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectViewController.m; sourceTree = "<group>"; };
+		EB5D3E1D1F5627E500AFA70C /* DrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerViewController.h; sourceTree = "<group>"; };
+		EB5D3E1E1F5627E500AFA70C /* DrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerViewController.m; sourceTree = "<group>"; };
+		EB5D3E201F56336700AFA70C /* CommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandViewController.h; sourceTree = "<group>"; };
+		EB5D3E211F56336700AFA70C /* CommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandViewController.m; sourceTree = "<group>"; };
+		EBB352BF1F540863002B342C /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		EBB352C01F540863002B342C /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		EBC955CB1F553443000B452D /* PickerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerTableView.h; sourceTree = "<group>"; };
+		EBC955CC1F553443000B452D /* PickerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerTableView.m; sourceTree = "<group>"; };
+		EBC955CE1F5547E2000B452D /* DepositViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepositViewController.h; sourceTree = "<group>"; };
+		EBC955CF1F5547E2000B452D /* DepositViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepositViewController.m; sourceTree = "<group>"; };
+		EBC955D11F555268000B452D /* DispenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispenseViewController.h; sourceTree = "<group>"; };
+		EBC955D21F555268000B452D /* DispenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispenseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D5BDEC1B538DEE00ACF1A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78BE13927EC0EA5000B396E /* CoreBluetooth.framework in Frameworks */,
+				E8C9CCFD27F59F9D0026AA96 /* libepos2.xcframework in Frameworks */,
+				8476482C1B6F94AF0056A02B /* libxml2.2.dylib in Frameworks */,
+				84DA8B6E1B6F949E002E3DBB /* ExternalAccessory.framework in Frameworks */,
+				84D5BDF51B538DEE00ACF1A8 /* CoreGraphics.framework in Frameworks */,
+				84D5BDF71B538DEE00ACF1A8 /* UIKit.framework in Frameworks */,
+				84D5BDF31B538DEE00ACF1A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D5BDE61B538DEE00ACF1A8 = {
+			isa = PBXGroup;
+			children = (
+				84D5BDF81B538DEE00ACF1A8 /* ePOS2_CashChanger */,
+				84D5BDF11B538DEE00ACF1A8 /* Frameworks */,
+				84D5BDF01B538DEE00ACF1A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D5BDF01B538DEE00ACF1A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D5BDEF1B538DEE00ACF1A8 /* ePOS2_CashChanger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D5BDF11B538DEE00ACF1A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C9CCFC27F59F9D0026AA96 /* libepos2.xcframework */,
+				D78BE13827EC0EA5000B396E /* CoreBluetooth.framework */,
+				84D11D4A1B85EEDC00BAADF8 /* libepos2.a */,
+				8476482B1B6F94AF0056A02B /* libxml2.2.dylib */,
+				84DA8B6D1B6F949E002E3DBB /* ExternalAccessory.framework */,
+				84D5BDF21B538DEE00ACF1A8 /* Foundation.framework */,
+				84D5BDF41B538DEE00ACF1A8 /* CoreGraphics.framework */,
+				84D5BDF61B538DEE00ACF1A8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D5BDF81B538DEE00ACF1A8 /* ePOS2_CashChanger */ = {
+			isa = PBXGroup;
+			children = (
+				EB011F191F540F8900094E20 /* CashChangerViewController.h */,
+				EB011F1A1F540F8900094E20 /* CashChangerViewController.m */,
+				EBB352BF1F540863002B342C /* ConnectViewController.h */,
+				EBB352C01F540863002B342C /* ConnectViewController.m */,
+				EB0808081F551F0A00743273 /* SetConfigViewController.h */,
+				EB0808091F551F0A00743273 /* SetConfigViewController.m */,
+				EBC955CE1F5547E2000B452D /* DepositViewController.h */,
+				EBC955CF1F5547E2000B452D /* DepositViewController.m */,
+				EBC955D11F555268000B452D /* DispenseViewController.h */,
+				EBC955D21F555268000B452D /* DispenseViewController.m */,
+				EB5D3E171F56207900AFA70C /* CashCountViewController.h */,
+				EB5D3E181F56207900AFA70C /* CashCountViewController.m */,
+				EB5D3E1A1F5623D400AFA70C /* CollectViewController.h */,
+				EB5D3E1B1F5623D400AFA70C /* CollectViewController.m */,
+				EB5D3E1D1F5627E500AFA70C /* DrawerViewController.h */,
+				EB5D3E1E1F5627E500AFA70C /* DrawerViewController.m */,
+				EB5D3E201F56336700AFA70C /* CommandViewController.h */,
+				EB5D3E211F56336700AFA70C /* CommandViewController.m */,
+				843AD4981B56856B00E5F2EB /* CashChanger.storyboard */,
+				84D5BE2F1B538EB100ACF1A8 /* ShowMsg.h */,
+				84D5BE301B538EB100ACF1A8 /* ShowMsg.m */,
+				84D5BE2A1B538E9E00ACF1A8 /* button.png */,
+				84D5BE011B538DEE00ACF1A8 /* AppDelegate.h */,
+				84D5BE021B538DEE00ACF1A8 /* AppDelegate.m */,
+				EBC955CB1F553443000B452D /* PickerTableView.h */,
+				EBC955CC1F553443000B452D /* PickerTableView.m */,
+				84D5BE0D1B538DEE00ACF1A8 /* Images.xcassets */,
+				84D5BDF91B538DEE00ACF1A8 /* Supporting Files */,
+			);
+			path = ePOS2_CashChanger;
+			sourceTree = "<group>";
+		};
+		84D5BDF91B538DEE00ACF1A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BA02551B54AA8C00A16C4F /* Localizable.strings */,
+				84D5BDFA1B538DEE00ACF1A8 /* ePOS2_CashChanger-Info.plist */,
+				84D5BDFB1B538DEE00ACF1A8 /* InfoPlist.strings */,
+				84D5BDFE1B538DEE00ACF1A8 /* main.m */,
+				84D5BE001B538DEE00ACF1A8 /* ePOS2_CashChanger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D5BDEE1B538DEE00ACF1A8 /* ePOS2_CashChanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D5BE241B538DEE00ACF1A8 /* Build configuration list for PBXNativeTarget "ePOS2_CashChanger" */;
+			buildPhases = (
+				84D5BDEB1B538DEE00ACF1A8 /* Sources */,
+				84D5BDEC1B538DEE00ACF1A8 /* Frameworks */,
+				84D5BDED1B538DEE00ACF1A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ePOS2_CashChanger;
+			productName = ePOS2_CashChanger;
+			productReference = 84D5BDEF1B538DEE00ACF1A8 /* ePOS2_CashChanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D5BDE71B538DEE00ACF1A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = 84D5BDEA1B538DEE00ACF1A8 /* Build configuration list for PBXProject "ePOS2_CashChanger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 84D5BDE61B538DEE00ACF1A8;
+			productRefGroup = 84D5BDF01B538DEE00ACF1A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D5BDEE1B538DEE00ACF1A8 /* ePOS2_CashChanger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D5BDED1B538DEE00ACF1A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5BE0E1B538DEE00ACF1A8 /* Images.xcassets in Resources */,
+				84BA02561B54AA8C00A16C4F /* Localizable.strings in Resources */,
+				843AD49A1B56856B00E5F2EB /* CashChanger.storyboard in Resources */,
+				84D5BE2B1B538E9E00ACF1A8 /* button.png in Resources */,
+				84D5BDFD1B538DEE00ACF1A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D5BDEB1B538DEE00ACF1A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D5BE311B538EB100ACF1A8 /* ShowMsg.m in Sources */,
+				EBC955D01F5547E2000B452D /* DepositViewController.m in Sources */,
+				EB08080A1F551F0A00743273 /* SetConfigViewController.m in Sources */,
+				EBC955CD1F553443000B452D /* PickerTableView.m in Sources */,
+				EBB352C11F540863002B342C /* ConnectViewController.m in Sources */,
+				EBC955D31F555268000B452D /* DispenseViewController.m in Sources */,
+				84D5BE031B538DEE00ACF1A8 /* AppDelegate.m in Sources */,
+				EB011F1B1F540F8900094E20 /* CashChangerViewController.m in Sources */,
+				EB5D3E1C1F5623D400AFA70C /* CollectViewController.m in Sources */,
+				EB5D3E1F1F5627E500AFA70C /* DrawerViewController.m in Sources */,
+				84D5BDFF1B538DEE00ACF1A8 /* main.m in Sources */,
+				EB5D3E191F56207900AFA70C /* CashCountViewController.m in Sources */,
+				EB5D3E221F56336700AFA70C /* CommandViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		843AD4981B56856B00E5F2EB /* CashChanger.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843AD4991B56856B00E5F2EB /* Base */,
+			);
+			name = CashChanger.storyboard;
+			sourceTree = "<group>";
+		};
+		84D5BDFB1B538DEE00ACF1A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D5BDFC1B538DEE00ACF1A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D5BE221B538DEE00ACF1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D5BE231B538DEE00ACF1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D5BE251B538DEE00ACF1A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ePOS2_CashChanger/ePOS2_CashChanger-Prefix.pch";
+				INFOPLIST_FILE = "ePOS2_CashChanger/ePOS2_CashChanger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libs,
+				);
+				PRODUCT_NAME = ePOS2_CashChanger;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84D5BE261B538DEE00ACF1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ePOS2_CashChanger/ePOS2_CashChanger-Prefix.pch";
+				INFOPLIST_FILE = "ePOS2_CashChanger/ePOS2_CashChanger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libs,
+				);
+				PRODUCT_NAME = ePOS2_CashChanger;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D5BDEA1B538DEE00ACF1A8 /* Build configuration list for PBXProject "ePOS2_CashChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5BE221B538DEE00ACF1A8 /* Debug */,
+				84D5BE231B538DEE00ACF1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D5BE241B538DEE00ACF1A8 /* Build configuration list for PBXNativeTarget "ePOS2_CashChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D5BE251B538DEE00ACF1A8 /* Debug */,
+				84D5BE261B538DEE00ACF1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D5BDE71B538DEE00ACF1A8 /* Project object */;
+}

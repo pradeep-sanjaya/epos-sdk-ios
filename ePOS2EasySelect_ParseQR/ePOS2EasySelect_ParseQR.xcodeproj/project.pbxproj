@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F60F7A01BBD14DA00DE453D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F60F79F1BBD14DA00DE453D /* button.png */; };
+		9FF1FCC21F74AA7500CD7E3D /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF1FCC11F74AA7500CD7E3D /* libxml2.2.tbd */; };
+		9FF1FCC41F74AA8D00CD7E3D /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF1FCC31F74AA8D00CD7E3D /* libiconv.tbd */; };
+		9FF1FCC61F74AA9C00CD7E3D /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF1FCC51F74AA9C00CD7E3D /* libstdc++.tbd */; };
+		9FF1FCD41F74B05F00CD7E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF1FCD21F74B05C00CD7E3D /* LaunchScreen.storyboard */; };
+		9FFC3A431BBA2969000ABB18 /* ParseQR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFC3A411BBA2969000ABB18 /* ParseQR.storyboard */; };
+		CE142D4E19A3435000E69B12 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE142D4D19A3435000E69B12 /* Localizable.strings */; };
+		CE5E31D219A073CF00968E5D /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E31D119A073CF00968E5D /* Utility.m */; };
+		CE5E31D519A0A37700968E5D /* IndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5E31D419A0A37700968E5D /* IndicatorView.m */; };
+		CECB736A19A0423700B46488 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB736919A0423700B46488 /* Foundation.framework */; };
+		CECB736C19A0423700B46488 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB736B19A0423700B46488 /* CoreGraphics.framework */; };
+		CECB736E19A0423700B46488 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECB736D19A0423700B46488 /* UIKit.framework */; };
+		CECB737419A0423700B46488 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CECB737219A0423700B46488 /* InfoPlist.strings */; };
+		CECB737619A0423700B46488 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB737519A0423700B46488 /* main.m */; };
+		CECB737A19A0423700B46488 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CECB737919A0423700B46488 /* AppDelegate.m */; };
+		CECB738219A0423700B46488 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECB738119A0423700B46488 /* Images.xcassets */; };
+		CEEB6D1C19A1D52E008C1887 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEB6D1B19A1D52E008C1887 /* ExternalAccessory.framework */; };
+		CEEB6D2519A1D65C008C1887 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEB6D2319A1D65C008C1887 /* MainViewController.m */; };
+		D1AC57C719AD989F00411CD8 /* libZXingWidgetQR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D13693B019AB437C003E7BED /* libZXingWidgetQR.a */; };
+		D7CC5D7227ED4CD10073F043 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7CC5D7127ED4CD10073F043 /* CoreBluetooth.framework */; };
+		E805BB7727F15C0E00AC965A /* libepos2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E805BB7527F15C0E00AC965A /* libepos2.xcframework */; };
+		E805BB7827F15C0E00AC965A /* libeposeasyselect.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E805BB7627F15C0E00AC965A /* libeposeasyselect.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D13693AF19AB437C003E7BED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13693A919AB437B003E7BED /* ZXingWidgetQR.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = ZXingWidgetQR;
+		};
+		D1AC57C419AD980A00411CD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13693A919AB437B003E7BED /* ZXingWidgetQR.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = ZXingWidgetQR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F60F79F1BBD14DA00DE453D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		9FF1FCC11F74AA7500CD7E3D /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		9FF1FCC31F74AA8D00CD7E3D /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		9FF1FCC51F74AA9C00CD7E3D /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		9FF1FCD31F74B05C00CD7E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FFC3A421BBA2969000ABB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ParseQR.storyboard; sourceTree = "<group>"; };
+		CE142D4D19A3435000E69B12 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		CE5E31D019A073CF00968E5D /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		CE5E31D119A073CF00968E5D /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		CE5E31D319A0A37700968E5D /* IndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorView.h; sourceTree = "<group>"; };
+		CE5E31D419A0A37700968E5D /* IndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorView.m; sourceTree = "<group>"; };
+		CECB736619A0423700B46488 /* ePOS2EasySelect_ParseQR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePOS2EasySelect_ParseQR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECB736919A0423700B46488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CECB736B19A0423700B46488 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CECB736D19A0423700B46488 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CECB737119A0423700B46488 /* ePOS2EasySelect_ParseQR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ePOS2EasySelect_ParseQR-Info.plist"; sourceTree = "<group>"; };
+		CECB737319A0423700B46488 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CECB737519A0423700B46488 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CECB737719A0423700B46488 /* ePOS2EasySelect_ParseQR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ePOS2EasySelect_ParseQR-Prefix.pch"; sourceTree = "<group>"; };
+		CECB737819A0423700B46488 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CECB737919A0423700B46488 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CECB738119A0423700B46488 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEEB6D1B19A1D52E008C1887 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		CEEB6D2219A1D65C008C1887 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CEEB6D2319A1D65C008C1887 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D13693A919AB437B003E7BED /* ZXingWidgetQR.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingWidgetQR.xcodeproj; path = QRCodeCapture/ZXingWidgetQR.xcodeproj; sourceTree = "<group>"; };
+		D7CC5D7127ED4CD10073F043 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E805BB7527F15C0E00AC965A /* libepos2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libepos2.xcframework; path = ../libs/libepos2.xcframework; sourceTree = "<group>"; };
+		E805BB7627F15C0E00AC965A /* libeposeasyselect.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libeposeasyselect.xcframework; path = ../libs/libeposeasyselect.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECB736319A0423700B46488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E805BB7727F15C0E00AC965A /* libepos2.xcframework in Frameworks */,
+				E805BB7827F15C0E00AC965A /* libeposeasyselect.xcframework in Frameworks */,
+				D7CC5D7227ED4CD10073F043 /* CoreBluetooth.framework in Frameworks */,
+				9FF1FCC61F74AA9C00CD7E3D /* libstdc++.tbd in Frameworks */,
+				9FF1FCC41F74AA8D00CD7E3D /* libiconv.tbd in Frameworks */,
+				9FF1FCC21F74AA7500CD7E3D /* libxml2.2.tbd in Frameworks */,
+				D1AC57C719AD989F00411CD8 /* libZXingWidgetQR.a in Frameworks */,
+				CEEB6D1C19A1D52E008C1887 /* ExternalAccessory.framework in Frameworks */,
+				CECB736C19A0423700B46488 /* CoreGraphics.framework in Frameworks */,
+				CECB736E19A0423700B46488 /* UIKit.framework in Frameworks */,
+				CECB736A19A0423700B46488 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CECB735D19A0423700B46488 = {
+			isa = PBXGroup;
+			children = (
+				CECB736F19A0423700B46488 /* ePOS2EasySelect_ParseQR */,
+				CECB736819A0423700B46488 /* Frameworks */,
+				CECB736719A0423700B46488 /* Products */,
+				D13693A919AB437B003E7BED /* ZXingWidgetQR.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		CECB736719A0423700B46488 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECB736619A0423700B46488 /* ePOS2EasySelect_ParseQR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECB736819A0423700B46488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E805BB7527F15C0E00AC965A /* libepos2.xcframework */,
+				E805BB7627F15C0E00AC965A /* libeposeasyselect.xcframework */,
+				D7CC5D7127ED4CD10073F043 /* CoreBluetooth.framework */,
+				9FF1FCC11F74AA7500CD7E3D /* libxml2.2.tbd */,
+				9FF1FCC51F74AA9C00CD7E3D /* libstdc++.tbd */,
+				9FF1FCC31F74AA8D00CD7E3D /* libiconv.tbd */,
+				CEEB6D1B19A1D52E008C1887 /* ExternalAccessory.framework */,
+				CECB736919A0423700B46488 /* Foundation.framework */,
+				CECB736B19A0423700B46488 /* CoreGraphics.framework */,
+				CECB736D19A0423700B46488 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CECB736F19A0423700B46488 /* ePOS2EasySelect_ParseQR */ = {
+			isa = PBXGroup;
+			children = (
+				CECB737819A0423700B46488 /* AppDelegate.h */,
+				CECB737919A0423700B46488 /* AppDelegate.m */,
+				CEEB6D2219A1D65C008C1887 /* MainViewController.h */,
+				CEEB6D2319A1D65C008C1887 /* MainViewController.m */,
+				9F60F79F1BBD14DA00DE453D /* button.png */,
+				CE5E31D019A073CF00968E5D /* Utility.h */,
+				CE5E31D119A073CF00968E5D /* Utility.m */,
+				CE5E31D319A0A37700968E5D /* IndicatorView.h */,
+				CE5E31D419A0A37700968E5D /* IndicatorView.m */,
+				9FFC3A411BBA2969000ABB18 /* ParseQR.storyboard */,
+				9FF1FCD21F74B05C00CD7E3D /* LaunchScreen.storyboard */,
+				CECB738119A0423700B46488 /* Images.xcassets */,
+				CECB737019A0423700B46488 /* Supporting Files */,
+			);
+			path = ePOS2EasySelect_ParseQR;
+			sourceTree = "<group>";
+		};
+		CECB737019A0423700B46488 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CECB737519A0423700B46488 /* main.m */,
+				CECB737219A0423700B46488 /* InfoPlist.strings */,
+				CECB737719A0423700B46488 /* ePOS2EasySelect_ParseQR-Prefix.pch */,
+				CECB737119A0423700B46488 /* ePOS2EasySelect_ParseQR-Info.plist */,
+				CE142D4D19A3435000E69B12 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D13693AA19AB437B003E7BED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D13693B019AB437C003E7BED /* libZXingWidgetQR.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECB736519A0423700B46488 /* ePOS2EasySelect_ParseQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECB739819A0423700B46488 /* Build configuration list for PBXNativeTarget "ePOS2EasySelect_ParseQR" */;
+			buildPhases = (
+				CECB736219A0423700B46488 /* Sources */,
+				CECB736319A0423700B46488 /* Frameworks */,
+				CECB736419A0423700B46488 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1AC57C519AD980A00411CD8 /* PBXTargetDependency */,
+			);
+			name = ePOS2EasySelect_ParseQR;
+			productName = ePOSEasySelectSample;
+			productReference = CECB736619A0423700B46488 /* ePOS2EasySelect_ParseQR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECB735E19A0423700B46488 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+			};
+			buildConfigurationList = CECB736119A0423700B46488 /* Build configuration list for PBXProject "ePOS2EasySelect_ParseQR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = CECB735D19A0423700B46488;
+			productRefGroup = CECB736719A0423700B46488 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D13693AA19AB437B003E7BED /* Products */;
+					ProjectRef = D13693A919AB437B003E7BED /* ZXingWidgetQR.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CECB736519A0423700B46488 /* ePOS2EasySelect_ParseQR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D13693B019AB437C003E7BED /* libZXingWidgetQR.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libZXingWidgetQR.a;
+			remoteRef = D13693AF19AB437C003E7BED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECB736419A0423700B46488 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FFC3A431BBA2969000ABB18 /* ParseQR.storyboard in Resources */,
+				9F60F7A01BBD14DA00DE453D /* button.png in Resources */,
+				CE142D4E19A3435000E69B12 /* Localizable.strings in Resources */,
+				9FF1FCD41F74B05F00CD7E3D /* LaunchScreen.storyboard in Resources */,
+				CECB738219A0423700B46488 /* Images.xcassets in Resources */,
+				CECB737419A0423700B46488 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECB736219A0423700B46488 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5E31D219A073CF00968E5D /* Utility.m in Sources */,
+				CECB737A19A0423700B46488 /* AppDelegate.m in Sources */,
+				CEEB6D2519A1D65C008C1887 /* MainViewController.m in Sources */,
+				CE5E31D519A0A37700968E5D /* IndicatorView.m in Sources */,
+				CECB737619A0423700B46488 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1AC57C519AD980A00411CD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZXingWidgetQR;
+			targetProxy = D1AC57C419AD980A00411CD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FF1FCD21F74B05C00CD7E3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FF1FCD31F74B05C00CD7E3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9FFC3A411BBA2969000ABB18 /* ParseQR.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FFC3A421BBA2969000ABB18 /* Base */,
+			);
+			name = ParseQR.storyboard;
+			sourceTree = "<group>";
+		};
+		CECB737219A0423700B46488 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECB737319A0423700B46488 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECB739619A0423700B46488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode_5.0.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/QRCodeCapture/QRCodeCapture",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CECB739719A0423700B46488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode_5.0.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/QRCodeCapture/QRCodeCapture",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECB739919A0423700B46488 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ePOS2EasySelect_ParseQR/ePOS2EasySelect_ParseQR-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/ePOS2EasySelect_ParseQR/ePOS2EasySelect_ParseQR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libs,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epson.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ePOS2EasySelect_ParseQR;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CECB739A19A0423700B46488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ePOS2EasySelect_ParseQR/ePOS2EasySelect_ParseQR-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/ePOS2EasySelect_ParseQR/ePOS2EasySelect_ParseQR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libs,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epson.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = ePOS2EasySelect_ParseQR;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECB736119A0423700B46488 /* Build configuration list for PBXProject "ePOS2EasySelect_ParseQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECB739619A0423700B46488 /* Debug */,
+				CECB739719A0423700B46488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECB739819A0423700B46488 /* Build configuration list for PBXNativeTarget "ePOS2EasySelect_ParseQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECB739919A0423700B46488 /* Debug */,
+				CECB739A19A0423700B46488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CECB735E19A0423700B46488 /* Project object */;
+}

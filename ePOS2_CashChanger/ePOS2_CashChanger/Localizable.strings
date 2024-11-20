@@ -1,0 +1,13 @@
+{
+	"methoderr_errcode" = "Error Code";
+    "methoderr_method" = "Method";
+    "statusmsg_result" = "Result";
+    "opos_code" = "OposCode";
+    "manual_input" = "Manual Input";
+    "auto_count" = "Auto Count";
+    "change" = "Change";
+    "nochange" = "No Change";
+    "repay" = "Repay";
+    "all_cash" = "All Cash";
+    "part_of_cash" = "Part of Cash";
+}

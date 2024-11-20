@@ -1,0 +1,23 @@
+See zxing/CHANGES for the previous change log.
+
+------------------------------------------------------------------
+ (31 Aug 2014)
+------------------------------------------------------------------
+- Supports arm64 build
+- Limited capture for only QR codes
+- Library name has been changed libZXingWidget.a -> libZXingWidgetQR.a
+- Camera startup and I/F capture have been changed (ZXingWidgetController.h -> QRCodeCapture.h)
+- Color and size of Overlay view have been changed
+
+------------------------------------------------------------------
+ (8 Oct 2014)
+------------------------------------------------------------------
+- Supports iOS8.0.2
+- Change the QR code decode area within preview frame
+
+------------------------------------------------------------------
+(27 Sep 2017)
+------------------------------------------------------------------
+- BugFix : Memory leak problem in QRCodeCapture
+- Converted project file to XCode9
+

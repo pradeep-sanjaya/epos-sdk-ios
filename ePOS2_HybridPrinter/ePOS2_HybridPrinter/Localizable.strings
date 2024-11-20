@@ -1,0 +1,29 @@
+{
+	"language_ank" = "ANK";
+	"language_japanese" = "JAPANESE";
+	"language_chinese" = "CHINESE";
+	"language_taiwan" = "TAIWAN";
+	"language_korean" = "KOREAN";
+	"language_thai" = "THAI";
+	"language_southasia" = "SOUTHASIA";
+	"methoderr_errcode" = "Error Code";
+	"methoderr_method" = "Method";
+	"statusmsg_result" = "Result";
+    "statusmsg_description" = "Description";
+	"warn_receipt_near_end" = "Roll paper is nearly end.\n";
+	"warn_battery_near_end" = "Battery level of printer is low.\n";
+    "err_offline"   = "Printer is offline.\n";
+    "err_no_response" = "Please check the connection of the printer and the mobile terminal.\nConnection get lost.\n";
+    "err_cover_open" = "Please close roll paper cover.\n";
+    "err_paper_feed" = "Please release a paper feed switch.\n";
+    "err_autocutter" = "Please remove jammed paper and close roll paper cover.\nRemove any jammed paper or foreign substances in the printer, and then turn the printer off and turn the printer on again.\n";
+    "err_need_recover" = "Then, If the printer doesn\'t recover from error, please cycle the power switch.\n";
+    "err_unrecover" = "Please cycle the power switch of the printer.\nIf same errors occurred even power cycled, the printer may out of order.";
+    "err_receipt_end" = "Please check roll paper.\n";
+    "err_battery" = "Battery of printer is hot.\n";
+    "err_overheat" = "Please wait until error LED of the printer turns off. \n";
+    "err_head" = "Print head of printer is hot.\n";
+    "err_motor" = "Motor Driver IC of printer is hot.\n";
+    "err_wrong_paper" = "Please set correct roll paper.\n";
+    "err_battery_real_end" = "Please connect AC adapter or change the battery.\nBattery of printer is almost empty.\n";
+}

@@ -1,0 +1,9 @@
+// Quick paring
+"QP_Lbl_Connecting" = "Connecting";
+"QP_msg_ErrorPrinterOpen" = "Failed to connect the printer.";
+"QP_msg_PrintError" = "Failed to print sample.";
+
+// Error common
+"dialog_title_error" = "Error";
+"dialog_button_ok" = "OK";
+

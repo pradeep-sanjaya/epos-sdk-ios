@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D78BE14D27EC1108000B396E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78BE14C27EC1108000B396E /* CoreBluetooth.framework */; };
+		E815E135226443C80030F1DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E815E134226443C80030F1DD /* AppDelegate.m */; };
+		E815E138226443C80030F1DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E815E137226443C80030F1DD /* ViewController.m */; };
+		E815E13B226443C80030F1DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E815E139226443C80030F1DD /* Main.storyboard */; };
+		E815E13D226443C90030F1DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E815E13C226443C90030F1DD /* Assets.xcassets */; };
+		E815E140226443C90030F1DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E815E13E226443C90030F1DD /* LaunchScreen.storyboard */; };
+		E815E143226443C90030F1DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E815E142226443C90030F1DD /* main.m */; };
+		E848D3AC226445110057B651 /* store.png in Resources */ = {isa = PBXBuildFile; fileRef = E848D3942264450F0057B651 /* store.png */; };
+		E848D3AD226445110057B651 /* PickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D3962264450F0057B651 /* PickerTableView.m */; };
+		E848D3AE226445110057B651 /* OrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D3972264450F0057B651 /* OrdersViewController.m */; };
+		E848D3AF226445110057B651 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D3982264450F0057B651 /* PayViewController.m */; };
+		E848D3B0226445110057B651 /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D3992264450F0057B651 /* DiscoveryViewController.m */; };
+		E848D3B1226445110057B651 /* ChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D39A2264450F0057B651 /* ChangeViewController.m */; };
+		E848D3B2226445110057B651 /* EposPurchaseItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D39C2264450F0057B651 /* EposPurchaseItemList.m */; };
+		E848D3B3226445110057B651 /* EposPurchaseItems.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D39D2264450F0057B651 /* EposPurchaseItems.m */; };
+		E848D3B4226445110057B651 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = E848D39E2264450F0057B651 /* button.png */; };
+		E848D3B6226445110057B651 /* IndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D3A4226445100057B651 /* IndicatorView.m */; };
+		E848D3B7226445110057B651 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E848D3A5226445100057B651 /* Localizable.strings */; };
+		E848D3B8226445110057B651 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D3A8226445100057B651 /* SettingViewController.m */; };
+		E848D3BD226445CF0057B651 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E848D3BC226445CF0057B651 /* ExternalAccessory.framework */; };
+		E848D3BF226445E50057B651 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E848D3BE226445E50057B651 /* UIKit.framework */; };
+		E848D3C1226445EC0057B651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E848D3C0226445EC0057B651 /* Foundation.framework */; };
+		E848D3C3226445F20057B651 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E848D3C2226445F20057B651 /* CoreGraphics.framework */; };
+		E848D3C5226446200057B651 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E848D3C4226446200057B651 /* libxml2.2.tbd */; };
+		E8A50ADC226DAB3000F9C8D9 /* EPOS2SDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A50ADA226DAB3000F9C8D9 /* EPOS2SDKManager.m */; };
+		E8C9CD2527F5A43F0026AA96 /* libepos2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C9CD2427F5A43F0026AA96 /* libepos2.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D78BE14C27EC1108000B396E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		E815E130226443C80030F1DD /* ePOS2_POSAppForTerminalModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePOS2_POSAppForTerminalModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E815E133226443C80030F1DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E815E134226443C80030F1DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E815E136226443C80030F1DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E815E137226443C80030F1DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E815E13A226443C80030F1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E815E13C226443C90030F1DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E815E13F226443C90030F1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E815E141226443C90030F1DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E815E142226443C90030F1DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E848D3942264450F0057B651 /* store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store.png; sourceTree = "<group>"; };
+		E848D3952264450F0057B651 /* PickerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerTableView.h; sourceTree = "<group>"; };
+		E848D3962264450F0057B651 /* PickerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerTableView.m; sourceTree = "<group>"; };
+		E848D3972264450F0057B651 /* OrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersViewController.m; sourceTree = "<group>"; };
+		E848D3982264450F0057B651 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		E848D3992264450F0057B651 /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		E848D39A2264450F0057B651 /* ChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeViewController.m; sourceTree = "<group>"; };
+		E848D39B2264450F0057B651 /* EposPurchaseItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EposPurchaseItemList.h; sourceTree = "<group>"; };
+		E848D39C2264450F0057B651 /* EposPurchaseItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EposPurchaseItemList.m; sourceTree = "<group>"; };
+		E848D39D2264450F0057B651 /* EposPurchaseItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EposPurchaseItems.m; sourceTree = "<group>"; };
+		E848D39E2264450F0057B651 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		E848D39F2264450F0057B651 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		E848D3A02264450F0057B651 /* ChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeViewController.h; sourceTree = "<group>"; };
+		E848D3A1226445100057B651 /* EposPurchaseItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EposPurchaseItems.h; sourceTree = "<group>"; };
+		E848D3A4226445100057B651 /* IndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorView.m; sourceTree = "<group>"; };
+		E848D3A5226445100057B651 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E848D3A6226445100057B651 /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		E848D3A7226445100057B651 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		E848D3A8226445100057B651 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		E848D3AA226445100057B651 /* IndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorView.h; sourceTree = "<group>"; };
+		E848D3AB226445100057B651 /* OrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersViewController.h; sourceTree = "<group>"; };
+		E848D3BA226445B50057B651 /* libepos2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libepos2.a; sourceTree = "<group>"; };
+		E848D3BC226445CF0057B651 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		E848D3BE226445E50057B651 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E848D3C0226445EC0057B651 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E848D3C2226445F20057B651 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E848D3C4226446200057B651 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		E8A50ADA226DAB3000F9C8D9 /* EPOS2SDKManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPOS2SDKManager.m; sourceTree = "<group>"; };
+		E8A50ADB226DAB3000F9C8D9 /* EPOS2SDKManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPOS2SDKManager.h; sourceTree = "<group>"; };
+		E8C9CD2427F5A43F0026AA96 /* libepos2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libepos2.xcframework; path = ../libs/libepos2.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E815E12D226443C80030F1DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78BE14D27EC1108000B396E /* CoreBluetooth.framework in Frameworks */,
+				E8C9CD2527F5A43F0026AA96 /* libepos2.xcframework in Frameworks */,
+				E848D3C5226446200057B651 /* libxml2.2.tbd in Frameworks */,
+				E848D3C3226445F20057B651 /* CoreGraphics.framework in Frameworks */,
+				E848D3C1226445EC0057B651 /* Foundation.framework in Frameworks */,
+				E848D3BF226445E50057B651 /* UIKit.framework in Frameworks */,
+				E848D3BD226445CF0057B651 /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E815E127226443C80030F1DD = {
+			isa = PBXGroup;
+			children = (
+				E815E132226443C80030F1DD /* ePOS2_POSAppForTerminalModel */,
+				E815E131226443C80030F1DD /* Products */,
+				E848D3B9226445B50057B651 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E815E131226443C80030F1DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E815E130226443C80030F1DD /* ePOS2_POSAppForTerminalModel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E815E132226443C80030F1DD /* ePOS2_POSAppForTerminalModel */ = {
+			isa = PBXGroup;
+			children = (
+				E815E13C226443C90030F1DD /* Assets.xcassets */,
+				E815E139226443C80030F1DD /* Main.storyboard */,
+				E815E13E226443C90030F1DD /* LaunchScreen.storyboard */,
+				E815E142226443C90030F1DD /* main.m */,
+				E815E133226443C80030F1DD /* AppDelegate.h */,
+				E815E134226443C80030F1DD /* AppDelegate.m */,
+				E815E136226443C80030F1DD /* ViewController.h */,
+				E815E137226443C80030F1DD /* ViewController.m */,
+				E848D3A7226445100057B651 /* SettingViewController.h */,
+				E848D3A8226445100057B651 /* SettingViewController.m */,
+				E848D3A6226445100057B651 /* DiscoveryViewController.h */,
+				E848D3992264450F0057B651 /* DiscoveryViewController.m */,
+				E8A50ADB226DAB3000F9C8D9 /* EPOS2SDKManager.h */,
+				E8A50ADA226DAB3000F9C8D9 /* EPOS2SDKManager.m */,
+				E848D3AB226445100057B651 /* OrdersViewController.h */,
+				E848D3972264450F0057B651 /* OrdersViewController.m */,
+				E848D39F2264450F0057B651 /* PayViewController.h */,
+				E848D3982264450F0057B651 /* PayViewController.m */,
+				E848D3A02264450F0057B651 /* ChangeViewController.h */,
+				E848D39A2264450F0057B651 /* ChangeViewController.m */,
+				E848D39B2264450F0057B651 /* EposPurchaseItemList.h */,
+				E848D39C2264450F0057B651 /* EposPurchaseItemList.m */,
+				E848D3A1226445100057B651 /* EposPurchaseItems.h */,
+				E848D39D2264450F0057B651 /* EposPurchaseItems.m */,
+				E848D3952264450F0057B651 /* PickerTableView.h */,
+				E848D3962264450F0057B651 /* PickerTableView.m */,
+				E848D3A4226445100057B651 /* IndicatorView.m */,
+				E848D3AA226445100057B651 /* IndicatorView.h */,
+				E848D3A5226445100057B651 /* Localizable.strings */,
+				E815E141226443C90030F1DD /* Info.plist */,
+				E848D39E2264450F0057B651 /* button.png */,
+				E848D3942264450F0057B651 /* store.png */,
+			);
+			path = ePOS2_POSAppForTerminalModel;
+			sourceTree = "<group>";
+		};
+		E848D3B9226445B50057B651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C9CD2427F5A43F0026AA96 /* libepos2.xcframework */,
+				D78BE14C27EC1108000B396E /* CoreBluetooth.framework */,
+				E848D3C4226446200057B651 /* libxml2.2.tbd */,
+				E848D3C2226445F20057B651 /* CoreGraphics.framework */,
+				E848D3C0226445EC0057B651 /* Foundation.framework */,
+				E848D3BE226445E50057B651 /* UIKit.framework */,
+				E848D3BC226445CF0057B651 /* ExternalAccessory.framework */,
+				E848D3BA226445B50057B651 /* libepos2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E815E12F226443C80030F1DD /* ePOS2_POSAppForTerminalModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E815E146226443C90030F1DD /* Build configuration list for PBXNativeTarget "ePOS2_POSAppForTerminalModel" */;
+			buildPhases = (
+				E815E12C226443C80030F1DD /* Sources */,
+				E815E12D226443C80030F1DD /* Frameworks */,
+				E815E12E226443C80030F1DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ePOS2_POSAppForTerminalModel;
+			productName = ePOS2_POSAppForTerminalModel;
+			productReference = E815E130226443C80030F1DD /* ePOS2_POSAppForTerminalModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E815E128226443C80030F1DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					E815E12F226443C80030F1DD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E815E12B226443C80030F1DD /* Build configuration list for PBXProject "ePOS2_POSAppForTerminalModel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E815E127226443C80030F1DD;
+			productRefGroup = E815E131226443C80030F1DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E815E12F226443C80030F1DD /* ePOS2_POSAppForTerminalModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E815E12E226443C80030F1DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E815E140226443C90030F1DD /* LaunchScreen.storyboard in Resources */,
+				E848D3B7226445110057B651 /* Localizable.strings in Resources */,
+				E848D3B4226445110057B651 /* button.png in Resources */,
+				E848D3AC226445110057B651 /* store.png in Resources */,
+				E815E13D226443C90030F1DD /* Assets.xcassets in Resources */,
+				E815E13B226443C80030F1DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E815E12C226443C80030F1DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E815E138226443C80030F1DD /* ViewController.m in Sources */,
+				E848D3AF226445110057B651 /* PayViewController.m in Sources */,
+				E848D3B8226445110057B651 /* SettingViewController.m in Sources */,
+				E848D3B0226445110057B651 /* DiscoveryViewController.m in Sources */,
+				E8A50ADC226DAB3000F9C8D9 /* EPOS2SDKManager.m in Sources */,
+				E848D3AD226445110057B651 /* PickerTableView.m in Sources */,
+				E848D3AE226445110057B651 /* OrdersViewController.m in Sources */,
+				E848D3B2226445110057B651 /* EposPurchaseItemList.m in Sources */,
+				E848D3B3226445110057B651 /* EposPurchaseItems.m in Sources */,
+				E815E143226443C90030F1DD /* main.m in Sources */,
+				E848D3B1226445110057B651 /* ChangeViewController.m in Sources */,
+				E815E135226443C80030F1DD /* AppDelegate.m in Sources */,
+				E848D3B6226445110057B651 /* IndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E815E139226443C80030F1DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E815E13A226443C80030F1DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E815E13E226443C90030F1DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E815E13F226443C90030F1DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E815E144226443C90030F1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E815E145226443C90030F1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E815E147226443C90030F1DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ePOS2_POSAppForTerminalModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					../libs,
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epson.ePOS2-POSAppForTerminalModel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E815E148226443C90030F1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ePOS2_POSAppForTerminalModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					../libs,
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epson.ePOS2-POSAppForTerminalModel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E815E12B226443C80030F1DD /* Build configuration list for PBXProject "ePOS2_POSAppForTerminalModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E815E144226443C90030F1DD /* Debug */,
+				E815E145226443C90030F1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E815E146226443C90030F1DD /* Build configuration list for PBXNativeTarget "ePOS2_POSAppForTerminalModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E815E147226443C90030F1DD /* Debug */,
+				E815E148226443C90030F1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E815E128226443C80030F1DD /* Project object */;
+}

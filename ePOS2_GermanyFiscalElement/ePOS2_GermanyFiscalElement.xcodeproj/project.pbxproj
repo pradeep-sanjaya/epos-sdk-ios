@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D78BE14127EC0FAB000B396E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78BE14027EC0FAB000B396E /* CoreBluetooth.framework */; };
+		DC0060C921CA36C8003833B6 /* store.png in Resources */ = {isa = PBXBuildFile; fileRef = DC0060C821CA36C8003833B6 /* store.png */; };
+		DC265A9922BA0060000AAA92 /* FirmWareUpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC265A9822BA0060000AAA92 /* FirmWareUpdateViewController.m */; };
+		DC7C0EBC21BE69D800A629A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C0EBB21BE69D800A629A6 /* main.m */; };
+		DC7C0EBF21BE69D800A629A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C0EBE21BE69D800A629A6 /* AppDelegate.m */; };
+		DC7C0EC221BE69D800A629A6 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C0EC121BE69D800A629A6 /* SettingViewController.m */; };
+		DC7C0EC521BE69D800A629A6 /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C0EC421BE69D800A629A6 /* OperationViewController.m */; };
+		DC7C0EC821BE69D800A629A6 /* GermanyFiscalElement.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7C0EC621BE69D800A629A6 /* GermanyFiscalElement.storyboard */; };
+		DC7C0EF221BE724200A629A6 /* AuditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C0EF121BE724200A629A6 /* AuditingViewController.m */; };
+		DC7C0EF521BE73ED00A629A6 /* StorageInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7C0EF421BE73ED00A629A6 /* StorageInfoViewController.m */; };
+		DC7C0EF721BE761B00A629A6 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7C0EF621BE761B00A629A6 /* button.png */; };
+		DCA9B7BF2282A7F000516F8E /* EPOS2SDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA9B7BE2282A7F000516F8E /* EPOS2SDKManager.m */; };
+		DCA9B7C22282A88400516F8E /* IndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA9B7C12282A88400516F8E /* IndicatorView.m */; };
+		DCE3765021BF8C86004DB691 /* GermanyFiscalElementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE3764F21BF8C86004DB691 /* GermanyFiscalElementViewController.m */; };
+		DCE3765621BF9687004DB691 /* DiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE3765521BF9687004DB691 /* DiscoveryViewController.m */; };
+		DCE3765921BF9ECC004DB691 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE3765821BF9ECC004DB691 /* ExternalAccessory.framework */; };
+		DCE3765B21BF9ED8004DB691 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE3765A21BF9ED8004DB691 /* CoreGraphics.framework */; };
+		DCE3765D21BF9EDD004DB691 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE3765C21BF9EDD004DB691 /* UIKit.framework */; };
+		DCE3765F21BF9EE4004DB691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE3765E21BF9EE4004DB691 /* Foundation.framework */; };
+		DCE3766421BFBA37004DB691 /* PickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE3766321BFBA37004DB691 /* PickerTableView.m */; };
+		DCE3766721BFC7A9004DB691 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCE3766621BFC7A9004DB691 /* Localizable.strings */; };
+		DCE3766921BFCBCA004DB691 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE3766821BFCBCA004DB691 /* libxml2.2.tbd */; };
+		DCE5489E21C8C069009D8820 /* EposPurchaseItems.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE5489D21C8C069009D8820 /* EposPurchaseItems.m */; };
+		DCE548A121C8E561009D8820 /* EposPurchaseItemList.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE548A021C8E561009D8820 /* EposPurchaseItemList.m */; };
+		E8C9CD0D27F5A0950026AA96 /* libepos2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8C9CD0C27F5A0950026AA96 /* libepos2.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4FC9B4A21F95FA800E5A115 /* libepos2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libepos2.a; path = ../libs/libepos2.a; sourceTree = "<group>"; };
+		D78BE14027EC0FAB000B396E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		DC0060C821CA36C8003833B6 /* store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store.png; sourceTree = "<group>"; };
+		DC265A9822BA0060000AAA92 /* FirmWareUpdateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirmWareUpdateViewController.m; sourceTree = "<group>"; };
+		DC265A9A22BA0076000AAA92 /* FirmWareUpdateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirmWareUpdateViewController.h; sourceTree = "<group>"; };
+		DC7C0EB721BE69D800A629A6 /* ePOS2_GermanyFiscalElement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ePOS2_GermanyFiscalElement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7C0EBB21BE69D800A629A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC7C0EBD21BE69D800A629A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC7C0EBE21BE69D800A629A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC7C0EC021BE69D800A629A6 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		DC7C0EC121BE69D800A629A6 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		DC7C0EC321BE69D800A629A6 /* OperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
+		DC7C0EC421BE69D800A629A6 /* OperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
+		DC7C0EC721BE69D800A629A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/GermanyFiscalElement.storyboard; sourceTree = "<group>"; };
+		DC7C0ECE21BE69D800A629A6 /* ePOS2_GermanyFiscalElement-info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ePOS2_GermanyFiscalElement-info.plist"; sourceTree = "<group>"; };
+		DC7C0EF021BE724200A629A6 /* AuditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuditingViewController.h; sourceTree = "<group>"; };
+		DC7C0EF121BE724200A629A6 /* AuditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuditingViewController.m; sourceTree = "<group>"; };
+		DC7C0EF321BE73ED00A629A6 /* StorageInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageInfoViewController.h; sourceTree = "<group>"; };
+		DC7C0EF421BE73ED00A629A6 /* StorageInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageInfoViewController.m; sourceTree = "<group>"; };
+		DC7C0EF621BE761B00A629A6 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		DCA9B7BE2282A7F000516F8E /* EPOS2SDKManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPOS2SDKManager.m; sourceTree = "<group>"; };
+		DCA9B7C02282A80800516F8E /* EPOS2SDKManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPOS2SDKManager.h; sourceTree = "<group>"; };
+		DCA9B7C12282A88400516F8E /* IndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndicatorView.m; sourceTree = "<group>"; };
+		DCA9B7C32282A89A00516F8E /* IndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndicatorView.h; sourceTree = "<group>"; };
+		DCE3764E21BF8C86004DB691 /* GermanyFiscalElementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GermanyFiscalElementViewController.h; sourceTree = "<group>"; };
+		DCE3764F21BF8C86004DB691 /* GermanyFiscalElementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GermanyFiscalElementViewController.m; sourceTree = "<group>"; };
+		DCE3765421BF9687004DB691 /* DiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveryViewController.h; sourceTree = "<group>"; };
+		DCE3765521BF9687004DB691 /* DiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoveryViewController.m; sourceTree = "<group>"; };
+		DCE3765821BF9ECC004DB691 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		DCE3765A21BF9ED8004DB691 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCE3765C21BF9EDD004DB691 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCE3765E21BF9EE4004DB691 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCE3766321BFBA37004DB691 /* PickerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerTableView.m; sourceTree = "<group>"; };
+		DCE3766521BFBA4F004DB691 /* PickerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerTableView.h; sourceTree = "<group>"; };
+		DCE3766621BFC7A9004DB691 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DCE3766821BFCBCA004DB691 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		DCE5489D21C8C069009D8820 /* EposPurchaseItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EposPurchaseItems.m; sourceTree = "<group>"; };
+		DCE5489F21C8C087009D8820 /* EposPurchaseItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EposPurchaseItems.h; sourceTree = "<group>"; };
+		DCE548A021C8E561009D8820 /* EposPurchaseItemList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EposPurchaseItemList.m; sourceTree = "<group>"; };
+		DCE548A221C8E581009D8820 /* EposPurchaseItemList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EposPurchaseItemList.h; sourceTree = "<group>"; };
+		E8C9CD0C27F5A0950026AA96 /* libepos2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libepos2.xcframework; path = ../libs/libepos2.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7C0EB421BE69D800A629A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78BE14127EC0FAB000B396E /* CoreBluetooth.framework in Frameworks */,
+				E8C9CD0D27F5A0950026AA96 /* libepos2.xcframework in Frameworks */,
+				DCE3766921BFCBCA004DB691 /* libxml2.2.tbd in Frameworks */,
+				DCE3765921BF9ECC004DB691 /* ExternalAccessory.framework in Frameworks */,
+				DCE3765B21BF9ED8004DB691 /* CoreGraphics.framework in Frameworks */,
+				DCE3765D21BF9EDD004DB691 /* UIKit.framework in Frameworks */,
+				DCE3765F21BF9EE4004DB691 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC7C0EAE21BE69D800A629A6 = {
+			isa = PBXGroup;
+			children = (
+				DC7C0EB921BE69D800A629A6 /* ePOS2_GermanyFiscalElement */,
+				DC7C0EB821BE69D800A629A6 /* Products */,
+				DCE3765721BF9ECB004DB691 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7C0EB821BE69D800A629A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7C0EB721BE69D800A629A6 /* ePOS2_GermanyFiscalElement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7C0EB921BE69D800A629A6 /* ePOS2_GermanyFiscalElement */ = {
+			isa = PBXGroup;
+			children = (
+				DCE3764E21BF8C86004DB691 /* GermanyFiscalElementViewController.h */,
+				DCE3764F21BF8C86004DB691 /* GermanyFiscalElementViewController.m */,
+				DC7C0EBD21BE69D800A629A6 /* AppDelegate.h */,
+				DC7C0EBE21BE69D800A629A6 /* AppDelegate.m */,
+				DCA9B7C02282A80800516F8E /* EPOS2SDKManager.h */,
+				DCA9B7BE2282A7F000516F8E /* EPOS2SDKManager.m */,
+				DCA9B7C12282A88400516F8E /* IndicatorView.m */,
+				DCA9B7C32282A89A00516F8E /* IndicatorView.h */,
+				DC7C0EC021BE69D800A629A6 /* SettingViewController.h */,
+				DC7C0EC121BE69D800A629A6 /* SettingViewController.m */,
+				DCE3766521BFBA4F004DB691 /* PickerTableView.h */,
+				DCE3766321BFBA37004DB691 /* PickerTableView.m */,
+				DC7C0EC321BE69D800A629A6 /* OperationViewController.h */,
+				DC7C0EC421BE69D800A629A6 /* OperationViewController.m */,
+				DC7C0EC621BE69D800A629A6 /* GermanyFiscalElement.storyboard */,
+				DC7C0EF321BE73ED00A629A6 /* StorageInfoViewController.h */,
+				DC7C0EF421BE73ED00A629A6 /* StorageInfoViewController.m */,
+				DC7C0EF021BE724200A629A6 /* AuditingViewController.h */,
+				DC7C0EF121BE724200A629A6 /* AuditingViewController.m */,
+				DCE3765421BF9687004DB691 /* DiscoveryViewController.h */,
+				DCE3765521BF9687004DB691 /* DiscoveryViewController.m */,
+				DC265A9A22BA0076000AAA92 /* FirmWareUpdateViewController.h */,
+				DC265A9822BA0060000AAA92 /* FirmWareUpdateViewController.m */,
+				DCE5489F21C8C087009D8820 /* EposPurchaseItems.h */,
+				DCE5489D21C8C069009D8820 /* EposPurchaseItems.m */,
+				DCE548A221C8E581009D8820 /* EposPurchaseItemList.h */,
+				DCE548A021C8E561009D8820 /* EposPurchaseItemList.m */,
+				DC0060C821CA36C8003833B6 /* store.png */,
+				DC7C0EF621BE761B00A629A6 /* button.png */,
+				DC7C0EBA21BE69D800A629A6 /* Supporting Files */,
+			);
+			path = ePOS2_GermanyFiscalElement;
+			sourceTree = "<group>";
+		};
+		DC7C0EBA21BE69D800A629A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE3766621BFC7A9004DB691 /* Localizable.strings */,
+				DC7C0ECE21BE69D800A629A6 /* ePOS2_GermanyFiscalElement-info.plist */,
+				DC7C0EBB21BE69D800A629A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCE3765721BF9ECB004DB691 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C9CD0C27F5A0950026AA96 /* libepos2.xcframework */,
+				D78BE14027EC0FAB000B396E /* CoreBluetooth.framework */,
+				D4FC9B4A21F95FA800E5A115 /* libepos2.a */,
+				DCE3766821BFCBCA004DB691 /* libxml2.2.tbd */,
+				DCE3765E21BF9EE4004DB691 /* Foundation.framework */,
+				DCE3765C21BF9EDD004DB691 /* UIKit.framework */,
+				DCE3765A21BF9ED8004DB691 /* CoreGraphics.framework */,
+				DCE3765821BF9ECC004DB691 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7C0EB621BE69D800A629A6 /* ePOS2_GermanyFiscalElement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7C0EE721BE69D800A629A6 /* Build configuration list for PBXNativeTarget "ePOS2_GermanyFiscalElement" */;
+			buildPhases = (
+				DC7C0EB321BE69D800A629A6 /* Sources */,
+				DC7C0EB421BE69D800A629A6 /* Frameworks */,
+				DC7C0EB521BE69D800A629A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ePOS2_GermanyFiscalElement;
+			productName = ePOS2_GermanyFiscalElement;
+			productReference = DC7C0EB721BE69D800A629A6 /* ePOS2_GermanyFiscalElement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC7C0EAF21BE69D800A629A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					DC7C0EB621BE69D800A629A6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DC7C0EB221BE69D800A629A6 /* Build configuration list for PBXProject "ePOS2_GermanyFiscalElement" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = DC7C0EAE21BE69D800A629A6;
+			productRefGroup = DC7C0EB821BE69D800A629A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7C0EB621BE69D800A629A6 /* ePOS2_GermanyFiscalElement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7C0EB521BE69D800A629A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7C0EF721BE761B00A629A6 /* button.png in Resources */,
+				DC0060C921CA36C8003833B6 /* store.png in Resources */,
+				DCE3766721BFC7A9004DB691 /* Localizable.strings in Resources */,
+				DC7C0EC821BE69D800A629A6 /* GermanyFiscalElement.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC7C0EB321BE69D800A629A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7C0EC521BE69D800A629A6 /* OperationViewController.m in Sources */,
+				DC7C0EBF21BE69D800A629A6 /* AppDelegate.m in Sources */,
+				DC265A9922BA0060000AAA92 /* FirmWareUpdateViewController.m in Sources */,
+				DCE548A121C8E561009D8820 /* EposPurchaseItemList.m in Sources */,
+				DC7C0EF521BE73ED00A629A6 /* StorageInfoViewController.m in Sources */,
+				DCA9B7BF2282A7F000516F8E /* EPOS2SDKManager.m in Sources */,
+				DCE3766421BFBA37004DB691 /* PickerTableView.m in Sources */,
+				DCA9B7C22282A88400516F8E /* IndicatorView.m in Sources */,
+				DCE3765021BF8C86004DB691 /* GermanyFiscalElementViewController.m in Sources */,
+				DC7C0EF221BE724200A629A6 /* AuditingViewController.m in Sources */,
+				DCE5489E21C8C069009D8820 /* EposPurchaseItems.m in Sources */,
+				DCE3765621BF9687004DB691 /* DiscoveryViewController.m in Sources */,
+				DC7C0EC221BE69D800A629A6 /* SettingViewController.m in Sources */,
+				DC7C0EBC21BE69D800A629A6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC7C0EC621BE69D800A629A6 /* GermanyFiscalElement.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7C0EC721BE69D800A629A6 /* Base */,
+			);
+			name = GermanyFiscalElement.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC7C0EE521BE69D800A629A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC7C0EE621BE69D800A629A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC7C0EE821BE69D800A629A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ePOS2_GermanyFiscalElement/ePOS2_GermanyFiscalElement-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libs,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epson.ePOS2-GermanyFiscalElement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC7C0EE921BE69D800A629A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ePOS2_GermanyFiscalElement/ePOS2_GermanyFiscalElement-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libs,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.epson.ePOS2-GermanyFiscalElement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC7C0EB221BE69D800A629A6 /* Build configuration list for PBXProject "ePOS2_GermanyFiscalElement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7C0EE521BE69D800A629A6 /* Debug */,
+				DC7C0EE621BE69D800A629A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7C0EE721BE69D800A629A6 /* Build configuration list for PBXNativeTarget "ePOS2_GermanyFiscalElement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7C0EE821BE69D800A629A6 /* Debug */,
+				DC7C0EE921BE69D800A629A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC7C0EAF21BE69D800A629A6 /* Project object */;
+}

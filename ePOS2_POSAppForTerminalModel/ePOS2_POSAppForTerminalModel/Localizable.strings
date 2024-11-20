@@ -1,0 +1,84 @@
+/* 
+  Localizable.strings
+  ePOS2_Composite
+
+  
+*/
+
+{
+    "printerseries_t88" = "TM-T88-DT T88-i Series";
+    "printerseries_t70" = "TM-T70-DT T70-i Series";
+    "deviceId_display" = "[local_display]";
+    "deviceId_scanner" = "[local_scanner]";
+    "deviceId_cashchanger" = "[CashChanger]";
+    "default_target_printer" = "TCP:192.168.192.168[local_printer]";
+    "default_target_display" = "TCP:192.168.192.168[local_display]";
+    "default_target_scanner" = "TCP:192.168.192.168[local_scanner]";
+    "default_target_cashchanger" = "TCP:192.168.192.168[CashChanger]";
+    "currency" = "¥";
+    
+    "methoderr_errcode" = "Error Code";
+    "methoderr_eventtype" = "Event Type";
+    "methoderr_method" = "Method";
+    "opos_code" = "OposCode";
+    "statusmsg_result" = "Result";
+    "code_success" = "success";
+    "err_offline"   = "Printer is offline.\n";
+    "err_no_response" = "Please check the connection of the printer and the mobile terminal.\nConnection get lost.\n";
+    "err_cover_open" = "Please close roll paper cover.\n";
+    "err_paper_feed" = "Please release a paper feed switch.\n";
+    "err_autocutter" = "Please remove jammed paper and close roll paper cover.\nRemove any jammed paper or foreign substances in the printer, and then turn the printer off and turn the printer on again.\n";
+    "err_need_recover" = "Then, If the printer doesn\'t recover from error, please cycle the power switch.\n";
+    "err_unrecover" = "Please cycle the power switch of the printer.\nIf same errors occurred even power cycled, the printer may out of order.";
+    "err_receipt_end" = "Please check roll paper.\n";
+    "err_battery" = "Battery of printer is hot.\n";
+    "err_overheat" = "Please wait until error LED of the printer turns off. \n";
+    "err_head" = "Print head of printer is hot.\n";
+    "err_motor" = "Motor Driver IC of printer is hot.\n";
+    "err_wrong_paper" = "Please set correct roll paper.\n";
+    "err_battery_real_end" = "Please connect AC adapter or change the battery.\nBattery of printer is almost empty.\n";
+    "err_empty" = "Refill the paper.\n";
+    "code_err_timeout" = "Adjust the timeout period.\n";
+    "code_err_not_found"= "Check if the connection type and/or IP address are correct. Check connection with the device\n";
+    "code_err_autorecover"= "Start the process after the device is cooled down.\n";
+    "code_err_cover_open" = "Please close roll paper cover.\n";
+    "code_err_cutter" = "Remove the error cause and power off and then on the printer.\n";
+    "code_err_mechanical" = "Remove the error cause and power off and then on the printer.\n";
+    "code_err_empty" = "Refill the paper.\n";
+    "code_err_unrecoveerable" = "Power off and then on the printer. Contact the distributor or service center if the problem persists.\n";
+    "code_err_system" = "Turn off and then turn on the power supply to the TM-i series/TM-DT series, and restart the OS.\n";
+    "code_err_port" = "Run forced transmission in the offline state.\n";
+    "code_err_job_not_found" = "Check the specified job ID.\n";
+    "code_err_printing" = "Run the process after printing completes.\n";
+    "code_err_spooler" = "Check if communication with the printer is disconnected.\n";
+    "code_err_battery_low" = "Replace the battery or connect the AC adapter.\n";
+    "code_err_failure" = "Check for a problem with the execution environment.\n";
+    "code_err_too_many_request" = "Wait for the printer to process some of the tasks, then send the jobs or data again.\n";
+    "code_err_request_entity_too_large" = "Check the content of the print job, reduce the size of the data, and then resend the print job.\n";
+    "code_err_failure" = "Check for a problem with the execution environment.\n";
+    "code_err_illegal" = "Use the API in an appropriate manner.\n";
+    "code_err_device_busy" = "Execute the process after the process completes.\n";
+    
+    
+    "item1Code" = "1000000001105";
+    "item2Code" = "1000000001082";
+    "item3Code" = "1000000001013";
+    "item4Code" = "1000000001068";
+    "item5Code" = "1000000001020";
+    "item6Code" = "1000000001051";
+    "item7Code" = "1000000001075";
+    "item8Code" = "1000000001037";
+    "item9Code" = "1000000001099";
+    "item10Code" = "1000000001044";
+    "item1Name" = "Pullover    ";
+    "item2Name" = "Jeans       ";
+    "item3Name" = "T-shirt     ";
+    "item4Name" = "Parka       ";
+    "item5Name" = "Sox         ";
+    "item6Name" = "Jacket      ";
+    "item7Name" = "Camisole    ";
+    "item8Name" = "Skirt       ";
+    "item9Name" = "Cut & Sewn  ";
+    "item10Name" = "Leggings    ";
+    
+}

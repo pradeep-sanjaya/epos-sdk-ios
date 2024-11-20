@@ -1,0 +1,22 @@
+// NFC messages
+"nfc_provide_additional_context" = "Hold the NFC reader on your iOS device close to the NFC mark on the printer.";
+"nfc_device_supported" = "This device supports NFC tag reading.";
+"nfc_device_not_supported" = "This device don't supports NFC tag reading.";
+"nfc_os_not_supported" = "This OS version don't supports NFC tag reading.";
+"nfc_step_title" = "Steps for Reading NFC Data";
+"nfc_step_1" = "1. Tap [NFC Scan].";
+"nfc_step_2" = "2. Hold the NFC reader on your iOS device close to the NFC mark on the printer.";
+"nfc_step_3" = "3. When the NFC is recognized, scanning ends.";
+
+// Select printer messages
+"select_printer_connecting" = "Connecting";
+
+// Error common
+"title_error" = "Error";
+"button_ok" = "OK";
+
+// Error messages
+"err_fail_scan_nfc" = "Failed to read the NFC data.";
+"err_fail_parse_nfc" = "This NFC is not supported.";
+"err_fail_open_printer" = "Failed to connect the printer.";
+"err_fail_print" = "Failed to print sample.";
